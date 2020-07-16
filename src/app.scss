@@ -1,0 +1,34 @@
+body{
+  background-color: #1E2D3B;
+}
+.container{
+  width: 50%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+
+  .card{
+    text-align: center;
+    width: calc(80% / 3);
+    background-color: #2E3A46;
+    padding: 10px 0px;
+
+
+    h3{
+      color: white;
+    }
+    span{
+      color: grey;
+      display: block;
+    }
+    img{
+      // height: 100px;
+      width: 80%;
+      margin: 0 auto;
+      height: 200px;
+    }
+  }
+}
