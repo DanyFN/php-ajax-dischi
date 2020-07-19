@@ -1,5 +1,5 @@
 <!-- richiamo il databse -->
-<?php include __DIR__ . '/database.php' ?>
+<?php include __DIR__ . '/database.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
